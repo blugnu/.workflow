@@ -1,0 +1,7 @@
+name: '@tag'
+on:
+  - push
+jobs:
+  tag_ref:
+    uses: blugnu/.reusable/.github/workflows/pipeline.module-release.yml@v0.2.0
+    secrets: inherit

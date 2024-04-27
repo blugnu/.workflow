@@ -1,0 +1,7 @@
+name: '@branch'
+on:
+  - push
+jobs:
+  branch_ref:
+    uses: blugnu/.reusable/.github/workflows/pipeline.module-release.yml@master
+    secrets: inherit

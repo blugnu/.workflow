@@ -1,0 +1,7 @@
+name: '@sha'
+on:
+  - push
+jobs:
+  sha:
+    uses: blugnu/.reusable/.github/workflows/pipeline.module-release.yml@c333ff407ef9d6bff5c659b99c0dc724614557e2
+    secrets: inherit
